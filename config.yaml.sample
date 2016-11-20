@@ -16,3 +16,4 @@ labelText: 'PASS'
 fakeTestFileText: 'src/unknown/identities/JohnDoe.test.js'
 fakeTestFileColor: 'gray'
 outputFile: john_doe_resume.pdf
+underlineLinks: true
