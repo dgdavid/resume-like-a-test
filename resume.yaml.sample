@@ -1,0 +1,19 @@
+first_name: John
+last_name: Doe
+sections:
+  - title: <About />
+    items:
+      - born in ~1350
+      - is a fictitious name
+      - also knows as «John Roe»
+  - title: <Personal />
+    items:
+      - his female name is «Jane»
+  - title: <Profiles />
+    items:
+      - has a [Wikipedia entry](https://en.wikipedia.org/wiki/John_Doe)
+  - title: <Other />
+    items:
+      - there are lot of variants per language and/or regions
+
+
