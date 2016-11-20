@@ -1,19 +1,20 @@
 document:
-  size: [595.28, 841.89]
+  baseFontSize: 12
+  size: 'A4'
   background: '#000'
-  color: '#def'
+  color: '#DEF'
 name:
   size: 40
-  color: 'green'
+  color: '#50FA7B'
 section:
-  titleSize: 12
-  titleColor: 'green'
-  itemColor: 'gray'
+  titleSize: 13
+  titleColor: '#50FA7B'
   itemSize: 11
-  bulletColor: 'green'
-labelBackground: 'green'
+  bulletColor: '#50FA7B'
+labelBackground: '#50FA7B'
 labelText: 'PASS'
+labelColor: '#000'
 fakeTestFileText: 'src/unknown/identities/JohnDoe.test.js'
-fakeTestFileColor: 'gray'
+fakeTestFileColor: '#CCC'
 outputFile: john_doe_resume.pdf
 underlineLinks: true
