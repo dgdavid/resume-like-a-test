@@ -5,5 +5,9 @@
   "main": "index.js",
   "repository": "git@github.com:dgdavid/resume-like-a-test.git",
   "author": "David Díaz <diazglezdavid@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "pdfkit": "^0.8.0",
+    "yaml-js": "^0.1.4"
+  }
 }
