@@ -1,5 +1,6 @@
 first_name: John
 last_name: Doe
+picture: './pictures/profile_picture.png'
 sections:
   - title: <About />
     items:
