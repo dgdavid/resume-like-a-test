@@ -5,4 +5,10 @@ document:
 name:
   size: 40
   color: 'green'
+section:
+  titleSize: 12
+  titleColor: 'green'
+  itemColor: 'gray'
+  itemSize: 11
+  bulletColor: 'green'
 outputFile: john_doe_resume.pdf
