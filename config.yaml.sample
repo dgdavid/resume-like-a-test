@@ -9,7 +9,7 @@ header:
   labelBackground: 'red'
   labelColor: 'black'
   textColor: 'gray'
-name:
+title:
   size: 40
   color: '#50FA7B'
 section:
