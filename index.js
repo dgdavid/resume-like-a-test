@@ -10,6 +10,6 @@ const dataFile = fs.readFileSync('./resume.yaml')
 const data = yaml.load(dataFile)
 
 console.log('\nWritting the resume...')
-new Resume(data).write()
+Resume.generate()
 
 console.log(`\nResume was created at ${config.outputFile}.`)

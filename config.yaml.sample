@@ -5,6 +5,10 @@ document:
   color: '#ABC'
   margin: 35
   size: 'A4'
+header:
+  labelBackground: 'red'
+  labelColor: 'black'
+  textColor: 'gray'
 name:
   size: 40
   color: '#50FA7B'
@@ -16,7 +20,6 @@ section:
 labelBackground: '#50FA7B'
 labelText: 'PASS'
 labelColor: '#000'
-fakeTestFileText: 'src/unknown/identities/JohnDoe.test.js'
-fakeTestFileColor: '#CCC'
 outputFilename: john_doe_resume.pdf
 underlineLinks: true
+

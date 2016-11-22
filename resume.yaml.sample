@@ -1,6 +1,9 @@
 first_name: John
 last_name: Doe
 picture: './pictures/profile_picture.png'
+header:
+  label: 'Resume'
+  text: 'src/developers/JohnDoe.resume.min'
 sections:
   - title: <About />
     items:
