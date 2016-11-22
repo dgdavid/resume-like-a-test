@@ -1,8 +1,10 @@
 document:
-  baseFontSize: 12
+  background: '#123'
+  baseFont: './fonts/MesloLG-S-DZ-Regular-for-Powerline.otf'
+  baseFontSize: 11
+  color: '#ABC'
+  margin: 35
   size: 'A4'
-  background: '#000'
-  color: '#DEF'
 name:
   size: 40
   color: '#50FA7B'
