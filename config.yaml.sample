@@ -16,10 +16,7 @@ section:
   titleSize: 13
   titleColor: '#50FA7B'
   itemSize: 11
+  itemColor: 'gray'
   bulletColor: '#50FA7B'
-labelBackground: '#50FA7B'
-labelText: 'PASS'
-labelColor: '#000'
 outputFilename: john_doe_resume.pdf
 underlineLinks: true
-
