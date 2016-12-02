@@ -9,6 +9,9 @@ header:
   labelBackground: 'red'
   labelColor: 'black'
   textColor: 'gray'
+  textSize: 10
+  horizontalGap: 15
+  verticalGap: 2
 title:
   size: 40
   color: '#50FA7B'
