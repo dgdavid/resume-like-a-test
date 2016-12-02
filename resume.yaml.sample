@@ -19,5 +19,19 @@ sections:
   - title: <Other />
     items:
       - there are lot of variants per language and/or regions
-
-
+stats:
+  - key: Sections
+    label: "%n sections "
+    labelColor: 'green'
+    text: were processed
+  - key: Items
+    label: "%n entries "
+    labelColor: 'green'
+    text: "listed."
+  - key: Links
+    label: "Links: "
+    text: "%n% links found."
+  - key: other
+    label: "Printable version available in "
+    text: "[dropbox](https://www.dropbox.com)"
+    textColor: 'green'

@@ -18,5 +18,10 @@ section:
   itemSize: 11
   itemColor: 'gray'
   bulletColor: '#50FA7B'
+stats:
+  indent: 5
+  textSize: 10
+  labelColor: 'white'
+  textColor: 'white'
 outputFilename: john_doe_resume.pdf
 underlineLinks: true
