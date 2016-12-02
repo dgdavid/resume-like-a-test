@@ -35,3 +35,6 @@ stats:
     label: "Printable version available in "
     text: "[dropbox](https://www.dropbox.com)"
     textColor: 'green'
+footer:
+  label: "REF. / UNKNOW0001"
+  text: "Some text at footer"

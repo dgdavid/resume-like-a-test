@@ -23,5 +23,12 @@ stats:
   textSize: 10
   labelColor: 'white'
   textColor: 'white'
+footer:
+  textSize: 10
+  textColor: 'gray'
+  horizontalGap: 15
+  verticalGap: 2
+  labelBackground: 'white'
+  labelColor: 'black'
 outputFilename: john_doe_resume.pdf
 underlineLinks: true
