@@ -5,6 +5,7 @@ document:
   color: '#ABC'
   margin: 35
   size: 'A4'
+  lineGap: 3
 header:
   labelBackground: 'red'
   labelColor: 'black'
