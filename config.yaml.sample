@@ -28,6 +28,7 @@ stats:
   labelColor: 'white'
   textColor: 'white'
 footer:
+  font: './fonts/MesloLGLDZRegular_NerdFonts_Patched_Minimal_Devicons.otf'
   textSize: 10
   textColor: 'gray'
   horizontalGap: 15
