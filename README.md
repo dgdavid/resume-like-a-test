@@ -1,39 +1,87 @@
-# WIP: resume-like-a-test
-A simple script to generate a basic resume themed as JavaScript test output.
-![JavaScript Style Guide](resume_like_a_test.png)
+# Resume like a test
+
+It is a script / utility to generate a PDF document from a YAML file. It has
+been designed to make an unusual resume that looks like a JavaScript test
+output. It is possible to change slightly the design due to the configuration
+file.
+
+<p align="center">
+ <img alt="jonh-doe-resume" src="./resume_like_a_test.png" />
+</p>
 
 ## Why?
 
-Because while I was making and running a few tests for a React component the
-idea came to my mind.
+> **TL;DR**
+> 
+> I was bored and I decided to waste some time making something useless, just
+> for fun and learning.
 
-## But...
+The truth is that this is totally unnecessary because I could have made my
+resume in a half the time or less, using other tools like [Inkscape](https://inkscape.org), a simple
+word processor or a fake JavaScript test.
 
-Yes, I know. There are a lot of (and better) tools to do a resume, such as
-[JSON Resume](https://jsonresume.org/) or [HackMyResume](https://github.com/hacksalot/HackMyResume).
+Even more, there are a lot and better tools to make resumes from plain text
+files, such as [JSON Resume](https://jsonresume.org/) or
+[HackMyResume](https://github.com/hacksalot/HackMyResume).
 
-But, I wanted to do something by myself.
+But I decided that, as a software developer, I must  take the opportunity and
+produce some code testing something new or different for me.
 
-## Ok, why JavaScript?
+In the beginning the idea was to use
+[HexaPDF](https://github.com/gettalong/hexapdf) Ruby library. But, after
+reviewing its API, I found it a little difficult to have something working in a
+short period of time. So, I decided to use [PDFKit](http://pdfkit.org/) , that
+was one of the tools that I found while I was searching alternative libraries
+to write PDF documents.
 
-Actually, I wanted to do it in Ruby with the only purpose to try
-[HexaPDF](https://github.com/gettalong/hexapdf). But after reviewing its API I
-found it a little difficult to have something in a short period of time.
 
-Then, I saw [jsPDF](https://github.com/MrRio/jsPDF) and
-[PDFKit](https://github.com/devongovett/pdfkit) and I chose this last one.
+## Libraries and tools used
 
-## How
+As you can see in the source code, this project make use of
 
-Creating a PDF from a YAML file.
+* [PDFKit](http://pdfkit.org/) - A JavaScript PDF generation library for Node and
+the browser.
+* [yaml-js](https://github.com/connec/yaml-js) - Pure Javascript.
+YAML loader and dumper, ported from PyYAML.
+* [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) - a project that
+  attempts to patch as many developer targeted fonts as possible with a high
+  number of additional glyphs (icons) - _The fonts were downloaded from there_.
+* [standardJS](http://standardjs.com) - One JavaScript style guide to rule them all.
+* [ES6doc](https://esdoc.org/) - a documentation generator for JavaScript(ES6) - _Only the notation, I didn’t generate the output_
+* [babel](https://babeljs.io/) -
+  [babel-preset-es2015](http://babeljs.io/docs/plugins/preset-es2015/) -
+  [babel-transform-object-rest-spread](https://babeljs.io/docs/plugins/transform-object-rest-spread/) - _to use ES6 features_.
+* [yarn](https://github.com/yarnpkg/yarn) - Fast, reliable, and secure dependency management.
+* and, _of course_, [node](https://nodejs.org)
 
-## Some links
 
-- [Pdfkit](https://github.com/devongovett/pdfkit)
-- [yaml-js](https://github.com/connec/yaml-js)
-- [standard JS](http://standardjs.com/index.html)
+## How to use
 
-## TODO
+Simply clone the repo, copy the config and data YAML sample files
 
-- Simplify the configuration (and also remove unnecessary getters)
-- Add a footer
+```
+cp config.yaml{.sample,}
+
+cp data.yaml{.sample,}
+```
+
+and use your desired config and data.
+
+
+Sorry about this, but  I won’t document  the configuration options. Since it is
+a dummy project, it has no  sense to spend more time in it.
+
+
+If you want to use it, just play and [readthesource](http://hangouts.readthesource.io/) ;)
+
+## Caveats
+
+As I said before, this is a project made only for learning purposes and build,
+in a complicated way I must admit, a particular version of my resume. So, it
+wouldn’t be weird to find bugs and unexpected behaviors.
+
+Some stuff to take into account are
+
+* textWithLink only supports one link per text. It would awesome to add support
+  for unlimited links, but I only needed one per line.
+* link in the footer text does not  render properly
