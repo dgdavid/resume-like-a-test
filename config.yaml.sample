@@ -1,6 +1,6 @@
 document:
   background: '#123'
-  baseFont: './fonts/MesloLG-S-DZ-Regular-for-Powerline.otf'
+  baseFont: './fonts/MesloLGLDZRegular_NerdFonts_Patched_FontPlus_Octicons.otf'
   baseFontSize: 11
   color: '#ABC'
   margin: 35
