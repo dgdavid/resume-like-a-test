@@ -46,6 +46,7 @@ YAML loader and dumper, ported from PyYAML.
 * [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) - a project that
   attempts to patch as many developer targeted fonts as possible with a high
   number of additional glyphs (icons) - _The fonts were downloaded from there_.
+* [font converter](http://www.freefontconverter.com/) - _to convert `.otf` fonts to `.ttf` for PDF compatibility with OSX_.
 * [standardJS](http://standardjs.com) - One JavaScript style guide to rule them all.
 * [ES6doc](https://esdoc.org/) - a documentation generator for JavaScript(ES6) - _Only the notation, I didn’t generate the output_
 * [babel](https://babeljs.io/) -

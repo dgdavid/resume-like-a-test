@@ -1,6 +1,6 @@
 document:
   background: '#123'
-  baseFont: './fonts/MesloLGLDZRegular_NerdFonts_Patched_FontPlus_Octicons.otf'
+  baseFont: './fonts/MesloLGLDZRegular_NerdFonts_Patched_FontPlus_Octicons.ttf'
   baseFontSize: 11
   color: '#ABC'
   margin: 35
@@ -28,7 +28,7 @@ stats:
   labelColor: 'white'
   textColor: 'white'
 footer:
-  font: './fonts/MesloLGLDZRegular_NerdFonts_Patched_Minimal_Devicons.otf'
+  font: './fonts/MesloLGLDZRegular_NerdFonts_Patched_Minimal_Devicons.ttf'
   textSize: 10
   textColor: 'gray'
   horizontalGap: 15
