@@ -1,7 +1,7 @@
-# Resume like a test
+# Résumé like a test
 
 It is a script / utility to generate a PDF document from a YAML file. It has
-been designed to make an unusual resume that looks like a JavaScript test
+been designed to make an unusual résumé (a.k.a _curriculum vitae_) that looks like a JavaScript test
 output. It is possible to change slightly the design due to the configuration
 file.
 
@@ -17,10 +17,10 @@ file.
 > for fun and learning.
 
 The truth is that this is totally unnecessary because I could have made my
-resume in a half the time or less, using other tools like [Inkscape](https://inkscape.org), a simple
+résumé in a half the time or less, using other tools like [Inkscape](https://inkscape.org), a simple
 word processor or a fake JavaScript test.
 
-Even more, there are a lot and better tools to make resumes from plain text
+Even more, there are a lot and better tools to make résumés from plain text
 files, such as [JSON Resume](https://jsonresume.org/) or
 [HackMyResume](https://github.com/hacksalot/HackMyResume).
 
@@ -29,10 +29,11 @@ produce some code testing something new or different for me.
 
 In the beginning the idea was to use
 [HexaPDF](https://github.com/gettalong/hexapdf) Ruby library. But, after
-reviewing its API, I found it a little difficult to have something working in a
-short period of time. So, I decided to use [PDFKit](http://pdfkit.org/) , that
-was one of the tools that I found while I was searching alternative libraries
-to write PDF documents.
+reviewing its API ([release 0.1.0](https://github.com/gettalong/hexapdf/tree/REL_0_1_0)),
+I found it a little difficult to have something working in a short period of
+time. So, I decided to use [PDFKit](http://pdfkit.org/) , that was one of the
+tools that I found while I was searching alternative libraries to write PDF
+documents.
 
 
 ## Libraries and tools used
@@ -46,7 +47,6 @@ YAML loader and dumper, ported from PyYAML.
 * [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) - a project that
   attempts to patch as many developer targeted fonts as possible with a high
   number of additional glyphs (icons) - _The fonts were downloaded from there_.
-* [font converter](http://www.freefontconverter.com/) - _to convert `.otf` fonts to `.ttf` for PDF compatibility with OSX_.
 * [standardJS](http://standardjs.com) - One JavaScript style guide to rule them all.
 * [ES6doc](https://esdoc.org/) - a documentation generator for JavaScript(ES6) - _Only the notation, I didn’t generate the output_
 * [babel](https://babeljs.io/) -
@@ -55,6 +55,8 @@ YAML loader and dumper, ported from PyYAML.
 * [yarn](https://github.com/yarnpkg/yarn) - Fast, reliable, and secure dependency management.
 * and, _of course_, [node](https://nodejs.org)
 
+I also had to use [font converter](http://www.freefontconverter.com/) to
+convert `.otf` fonts to `.ttf` for PDF compatibility with OSX.
 
 ## How to use
 
@@ -78,7 +80,7 @@ If you want to use it, just play and [readthesource](http://hangouts.readthesour
 ## Caveats
 
 As I said before, this is a project made only for learning purposes and build,
-in a complicated way I must admit, a particular version of my resume. So, it
+in a complicated way I must admit, a particular version of my résumé. So, it
 wouldn’t be weird to find bugs and unexpected behaviors.
 
 Some stuff to take into account are
