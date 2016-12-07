@@ -68,8 +68,13 @@ cp config.yaml{.sample,}
 cp data.yaml{.sample,}
 ```
 
-and use your desired config and data.
+and use your desired config and data. Then, run the command
 
+```
+yarn generate
+```
+
+and wait until your PDF will be generated.
 
 Sorry about this, but  I won’t document  the configuration options. Since it is
 a dummy project, it has no  sense to spend more time in it.
