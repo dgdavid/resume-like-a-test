@@ -20,8 +20,8 @@ The truth is that this is totally unnecessary because I could have made my
 résumé in a half the time or less, using other tools like [Inkscape](https://inkscape.org), a simple
 word processor or a fake JavaScript test.
 
-Even more, there are a lot and better tools to make résumés from plain text
-files, such as [JSON Resume](https://jsonresume.org/) or
+Even more, already exists better tools to make résumés from plain text files,
+such as [JSON Resume](https://jsonresume.org/) or
 [HackMyResume](https://github.com/hacksalot/HackMyResume).
 
 But I decided that, as a software developer, I must  take the opportunity and
@@ -60,7 +60,22 @@ convert `.otf` fonts to `.ttf` for PDF compatibility with OSX.
 
 ## How to use
 
-Simply clone the repo, copy the config and data YAML sample files
+Simply clone the repo
+
+
+```
+git clone git@github.com:dgdavid/resume-like-a-test.git
+
+```
+
+install dependencies (assuming that you have `yarn` installed in your system;
+you also can use `npm`)
+
+```
+yarn
+```
+
+copy the config and data YAML sample files
 
 ```
 cp config.yaml{.sample,}
@@ -90,6 +105,6 @@ wouldn’t be weird to find bugs and unexpected behaviors.
 
 Some stuff to take into account are
 
-* textWithLink only supports one link per text. It would awesome to add support
+* `textWithLink` only supports one link per text. It would awesome to add support
   for unlimited links, but I only needed one per line.
-* link in the footer text does not  render properly
+* links in the footer and vertical texts does not render properly
